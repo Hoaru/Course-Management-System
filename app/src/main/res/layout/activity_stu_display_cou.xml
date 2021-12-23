@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/CouShow"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="课程号"
+            android:textSize="10dp"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="课程名称"
+            android:textSize="10dp"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="学院"
+            android:textSize="10dp"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="教师工号"
+            android:textSize="10dp"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="任课教师"
+            android:textSize="10dp"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="类型"
+            android:textSize="10dp"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="学分"
+            android:textSize="10dp"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="容量"
+            android:textSize="10dp"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text=" 已选人数"
+            android:textSize="10dp"
+            android:gravity="center_horizontal"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/Informat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/colorAccent"
+        android:dividerHeight="0.5dp"
+        android:textSize="10dp"
+        >
+
+    </ListView>
+</LinearLayout>
